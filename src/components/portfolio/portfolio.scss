@@ -1,0 +1,39 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+
+    &_content {
+        margin: 0 auto;
+        text-align: center;
+        width: 70%;
+        
+        &_content-subtitle {
+            font-weight: 500;
+            margin: 20px 0;
+        }
+    }
+
+    &_list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .portfolio {
+        padding: 50px 20px;
+    
+        &_content {
+            width: 70%;
+
+            &-subtitle {
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.project {
+    width: 30%;
+    height: 40vh;
+    margin-top: 20px;
+    border: 1px solid #eaeaea;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+
+    &_browser {
+        background-color: #eaeaea;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        position: sticky;
+        z-index: 44; 
+
+        &-circle {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background-color: #9ec0a8;
+            margin: 2px;
+        }
+    }
+
+    &_img {
+        display: block;
+
+        & img {
+            object-fit: cover;
+            object-position: top center;
+            transition: all 10s ease;
+        }
+    }
+}
+.project:hover img {
+    transform: translateY(-100%);
+}
+
+@media screen and (max-width: 600px) {
+    .project {
+        width: 45%;
+        height: 20vh;
+    }
+}
