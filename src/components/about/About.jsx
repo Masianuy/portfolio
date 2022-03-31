@@ -15,6 +15,16 @@ const About = () => {
         <h2 className="about-right_title">Courses</h2>
         <div className="about-right_courses">
           <div className="about-right_courses-date">
+            <p>From February 2022</p>
+            <p>- until now</p>
+          </div>
+          <div className="about-right_courses-place">
+            <p>FULL STACK JS Developer</p>
+            <p>FRESHCODE, Zaporizhia</p>
+          </div>
+        </div>
+        <div className="about-right_courses">
+          <div className="about-right_courses-date">
             <p>From February 2020</p>
             <p>to March 2020</p>
           </div>
