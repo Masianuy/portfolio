@@ -19,4 +19,9 @@ export const projects = [
         img: 'https://i.pinimg.com/736x/c9/c2/c5/c9c2c58fb36b766cee748a89cd8f5d04.jpg',
         link: 'https://masianuy.github.io/ZkTeco/dist/index.html',
     },
+    {
+        id: 5,
+        img: 'https://i.pinimg.com/564x/38/42/f1/3842f1a60e3e6872b422eba587665c18.jpg',
+        link: 'https://masianuy.github.io/pet_finder/',
+    },
 ]
