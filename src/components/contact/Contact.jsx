@@ -47,9 +47,9 @@ const Contact = () => {
         <div className="contact-right">
           <p className="contact-right-discription">I would like <span>to grow and improve my professional skills</span></p>
           <form className="contact-right_form" ref={form} onSubmit={sendEmail}>
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" value="" autoComplete="name" placeholder="Name" name="user_name" />
+            <input style={{backgroundColor: darkMode && "#333"}} type="text" autoComplete="name" placeholder="Name" name="user_name" />
             <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Subject" name="user_subject" />
-            <input style={{backgroundColor: darkMode && "#333"}} type="email" value="" autoComplete="email" placeholder="Email" name="user_email" />
+            <input style={{backgroundColor: darkMode && "#333"}} type="email" autoComplete="email" placeholder="Email" name="user_email" />
             <textarea style={{backgroundColor: darkMode && "#333"}} name="message" placeholder="Message" id="message" rows="5"></textarea>
             <button>Submit</button>
             {done && " Thank you!"}
