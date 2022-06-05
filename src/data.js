@@ -24,4 +24,9 @@ export const projects = [
         img: 'https://i.pinimg.com/564x/38/42/f1/3842f1a60e3e6872b422eba587665c18.jpg',
         link: 'https://masianuy.github.io/pet_finder/',
     },
+    {
+        id: 6,
+        img: 'https://i.pinimg.com/564x/02/45/f3/0245f3d7c9e5abbde6e8ec3e85097e7f.jpg',
+        link: 'https://masianuy.github.io/law-company/',
+    },
 ]
